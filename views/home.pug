@@ -1,0 +1,47 @@
+extends base.pug
+
+block scripts
+   script(src="../static/script.js")
+block style
+   style 
+      include ../static/style.css
+block content
+
+    section#introsection
+            div Welcome to Ikra Dance Academy 
+            div.smd Any Body Can Dance
+    section#missionsection 
+            h2  Our Mission
+            div.imgsec
+             figure.snip1477
+              img(src="/static/image/card1.jpeg")
+              div.title
+                 h2 Expert 
+                 h4 Teaching 
+              figcaption 
+                 p Learn from the Expert and try best you can
+              a(href="#")
+             figure.snip1477 
+               img(src="/static/image/card2.jpeg")
+               div.title
+                 h2 Dance 
+                 h4 The Way you Like 
+               figcaption 
+                 p Learn the way you want to learn
+               a(href="#")
+             figure.snip1477 
+               img(src="/static/image/card3.jpeg")
+               div.title
+                 h2 Dance 
+                 h4 Perfection
+               figcaption 
+                 p Bring more and more perfection in your dance
+               a(href="#")
+                
+    section#sponsorsection 
+            h2  Our sponsor 
+            div#sponsor
+              img(src="/static/image/sp1.png" class="spImage")
+              img(src="/static/image/sp2.png" class="spImage")
+              img(src="/static/image/sp3.png" class="spImage")
+              img(src="/static/image/sp4.png" class="spImage")
